@@ -533,7 +533,7 @@
 			range: true,
 			min: 0,
 			max: 7500,
-			values: [1000, 2500],
+			values: [300, 2500],
 			slide: function (event, ui) {
 				$("#amount-1").val("AED" + ui.values[0] + " - AED" + ui.values[1]);
 			}
